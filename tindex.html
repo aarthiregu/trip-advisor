@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="tstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+<!--My search bar -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="navbar">
+        
+        
+            <div class="logo">
+       <img src="data:image/png;base64,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" alt="globe"></div>
+            </div>
+            <div class="menu">
+                <a href="#">Discover</a>
+            <a href="#">Trips</a>
+            <a href="#">Review</a>
+            <a href="#">More</a>
+            </div>
+            <div class="rightbox">
+            <div class="logo2">
+            <img src="/Users/regupathyb/Desktop/css/trip/internet-connection.png"></div>
+            <p>| INR</p>
+
+            <a href="#" class="btnsignin"> Sign In</a>
+            </div>
+    </nav>
+    <div class="main">
+        <h1>Where to?</h1>
+        </div>
+        <div class="main__items">
+        <a href="#"><i class="fa-solid fa-house"></i>Search All</a>
+        <a href="#"><i class="fa-solid fa-bed"></i>Hotels</a>
+        <a href="#"><i class="fa-solid fa-camera"></i>Thing to Do</a>
+        <a href="#"><i class="fa-solid fa-utensils"></i>Restaurants</a>
+        <a href="#"><i class="fa-solid fa-plane-departure"></i>Flights</a>
+        <a href="#"><i class="fa-solid fa-house-lock"></i>Holiday Homes</a>
+
+    </div>
+    <div class="main__search">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input placeholder="places to go,things to do,hotels..."><a href="#" class="search"> Search</a>
+         </div>  
+ <!--Footer section-->   
+ <div class="footer">
+ <div class="footer-container">
+        
+         <div class="footer-column"> 
+<h4>About Tripadvisor</h4>
+<ul>
+<li><a href="#">Aboutus</a></li>
+<li><a href="#">press</a></li>
+<li><a href="#">Resources and Policies</a></li>
+<li><a href="#">Careers</a></li>
+<li><a href="#">Trust &Safety</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">TripAdvisor Technology</a></li>
+<li><a href="#">Blog</a></li>
+</ul>
+
+
+</div>
+ 
+<div class="footer-column"> 
+<h4>Explore</h4>
+<ul>
+<li><a href="#">Write a Review</a></li>
+<li><a href="#">Add a place</a></li>
+<li><a href="#">Join</a></li>
+<li><a href="#">Traveller's choice</a></li>
+<li><a href="#">Help center</a></li>
+</ul>
+</div>
+<div class="footer-column"> 
+   <h4>Do business with us</h4>
+   <ul>
+<li><a href="#">Owners & DMO/CVB</a></li>
+<li><a href="#">Business Advantage</a></li>
+<li><a href="#">Sponsored Placements</a></li>
+<li><a href="#">Access our content API</a></li>
+<p>
+<li><a href="#">Get the App</a></li>
+
+<li><a href="#">iPhone App</a></li>
+<li><a href="#">Android App</a>
+    </p>
+</li>
+</ul>
+</div>
+<div class="footer-column">
+<h4>Trip Advisor's sites</h4>
+<p>Book tours and attraction tickets on <span>Viator</span></p>
+
+</div>
+</div>
+
+        <div class="bottom-footer">
+            <div class="bottom-logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqbgfDvgkIv3Qc2_DMd9TYTOBcEtUOwXT_rzs7jSixYW-QF69a3H-iWP4&s">
+            <p>&copy,2025 Tripadvisor LLC All rights reserved.</p>
+            </div>
+            <p>
+<a href="#">Terms of use</a>
+<a href="#">Privacy and Cookies statement</a>
+<a href="#">Cookie consent</a>
+<a href="#">Site Map</a>
+<a href="#">How the site works</a>
+<a href="#">Contact Us</a>
+<a href="#">Accessibility Statement</a>
+            </p>
+
+<p class="readmore">
+
+            <p>This is the version of our website addressed to speakers of English in India. If you are a resident of another country or region, please select the appropriate version of Tripadvisor for your country or region in the drop-down menu...</p>
+<a href="read.html">Read More</a>
+
+        </div>
+   </div>     
+</body>
+</html>
