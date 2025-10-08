@@ -233,7 +233,7 @@ font-size:16px;
 
 
 .course-card{
-  flex-grow: 1;
+    flex-grow: 1;
     flex-basis:10px;
     gap:5px;
     
@@ -249,6 +249,7 @@ font-size:16px;
 
 .best__container .course-card{
     position:relative;
+    
 } 
 .course-card .dine{
     position:absolute;
@@ -258,6 +259,9 @@ font-size:16px;
     background-color: white;
     border:solid black1px;
     font-weight: bold;
+    
+    
+    
 }
 .nexttrip__container .course-card{
     position:relative;
@@ -270,6 +274,7 @@ font-size:16px;
     background-color: white;
     border:solid black1px;
     font-weight: bold;
+    
 }
 /*footer image*/
 .place2-image{ 
@@ -351,9 +356,8 @@ grid-template-columns: repeat(4,1fr);
 }
 .bottom-logo{
     display:flex;
-    align-items:center;
-    
-    
+    align-items:center;  
+
 }
 .bottom-logo img{
 
@@ -396,6 +400,73 @@ details[open] summary::after {
 }
 details{
     padding:10px;
+}
+
+/*media Queries*/
+@media screen and (max-width:800px){
+    body{
+    font-size:10px;
+    
+    
+
+    }
+    
+
+    }
+    
+    @media screen and (max-width:600px){
+        
+    .logo{
+        margin-left:0px;
+        padding:0px;
+    }
+    .menu {
+        display:none;
+    }
+    .logo2 {
+        display:none;
+    }
+    .inr{
+        display:none;
+        }
+        .rightbox{
+            margin-left:200px;
+        }
+    .main1{
+        padding:10px;
+        margin-left:100px; 
+        margin-right:50px;
+    
+}
+    .place-image img{ 
+        width:65%;
+    height:340px;
+    margin-left:100px;
+    margin-top:20px;
+
+    }
+    
+        .course-card{
+    flex-basis:10px;
+    padding-bottom: 40px;
+    gap:5px;
+
+    }
+    .place2-image img{
+    width:100%;
+    height:700px;
+    padding:0px;  
+}
+.place2-image-2025{
+    font-size: medium;
+}
+.bottom-logo p{
+    white-space:nowrap;
+}
+
+.bottom-footer1{
+    display:none;  
+
 }
 
 
